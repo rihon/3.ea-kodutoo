@@ -1,0 +1,12 @@
+{
+    "name": "NewTab",
+    "version": "0.1",
+    "description": "A pretty new tab",
+    "browser_action":{
+        "default_icon": "images/icon_D16.png"
+    },
+    "chrome_url_overrides":{
+        "newtab": "newTab.html"
+    },
+    "manifest_version": 2
+}
